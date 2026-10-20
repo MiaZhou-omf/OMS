@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a1d5e">
+  <meta name="description" content="Clickable OneMain Solutions design prototype">
+  <title>OneMain Solutions — Clickable prototype</title>
+  <link rel="stylesheet" href="styles.css?v=print-icon-1">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/" aria-label="OneMain Solutions home"><img src="assets/onemain-logo.svg" width="145" height="13" alt="OneMain Solutions"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <div class="nav-group"><a class="nav-trigger" href="#/products">Products</a><button class="nav-caret" type="button" aria-label="Show Products menu" aria-expanded="false" aria-controls="menu-products" data-menu="products"><img src="assets/nav-arrow-down.svg" width="24" height="24" alt=""></button><div class="nav-dropdown products-dropdown" id="menu-products"><div class="menu-section" role="group" aria-label="Credit insurance"><span class="menu-heading">Credit insurance</span><a href="#/product/credit-life-insurance">Credit Life Insurance</a><a href="#/product/credit-disability-insurance">Credit Disability Insurance</a><a href="#/product/credit-involuntary-unemployment-insurance">Involuntary Unemployment (IUI)</a></div><img class="menu-divider" src="assets/products-menu-divider.svg" width="268" height="1" alt=""><div class="menu-section" role="group" aria-label="Non-credit insurance"><span class="menu-heading">Non-credit insurance</span><a href="#/product/term-life-insurance">Term Life Insurance</a><a href="#/product/disability-income-protection">Disability Income Protection</a><a href="#/product/lender-placed-auto">Lender-Placed Auto</a></div><img class="menu-divider" src="assets/products-menu-divider.svg" width="268" height="1" alt=""><div class="menu-section" role="group" aria-label="Other protection"><span class="menu-heading">Other protection</span><a href="#/product/guaranteed-asset-protection">Guaranteed Asset Protection(GAP)</a><a href="#/product/home-auto">Home &amp; Auto Plans</a><a href="#/product/silver-safeguard-plan">Silver Safeguard Plan</a></div></div></div>
+        <div class="nav-group"><a class="nav-trigger" href="#/help">Help Center</a><button class="nav-caret" type="button" aria-label="Show Help Center menu" aria-expanded="false" aria-controls="menu-help" data-menu="help"><img src="assets/nav-arrow-down.svg" width="24" height="24" alt=""></button><div class="nav-dropdown" id="menu-help"><a href="#/help">Quick answers</a><a href="#/help#contact">Contact us</a><a href="#/payment">Make a Merit payment</a></div></div>
+      </nav>
+      <a class="button header-cta" href="#/forms">Claims &amp; Forms</a>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer">
+    <div class="footer-links"><a href="#/about">About Us</a><a href="#/help#contact">Contact US</a><button type="button" data-modal="legal">Legal &amp; Privacy</button><button type="button" data-modal="privacy">Do Not Sell or Share My Personal Information</button></div>
+    <div class="footer-rule"></div>
+    <p class="footer-small">If you are using a screen reader and are having problems using the website, please call 1-800-307-0048 for assistance.</p>
+    <p>Copyright © 2026, OneMain Solutions. All rights reserved.</p>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="info-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close">×</button><h2 id="dialog-title"></h2><p id="dialog-copy"></p><button class="button">Close</button></form></dialog>
+  <script src="faq-data.js?v=faq-alignment-1"></script>
+  <script src="oms-app-pdf-brand.js"></script>
+</body>
+</html>
